@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@400;900&display=swap');
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Montserrat";
+}
+.forritun-tag{
+    margin-bottom: -50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Montserrat";
+    color: #3375b1;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.önn-font{
+    font-weight: 900;
+    font-size: xx-large;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+.box-values{
+    margin-top: 0px;
+    width: 200px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    font-family: "Roboto";
+}
+.small-boxes{
+    height: 225px;
+    margin: 10px;
+    border: 2px;
+    background-color: #50b1d4;
+    color: white;
+}
+.big-box{
+    height: 275px;
+    border: 5px solid #20476b;
+    background-color: #3375b1;
+    color: white;
+}
+button{
+    color: white;
+    background-color: #6a11b1;
+    border: 0;
+    border-radius: 6px;
+    padding: 12px;
+}
+.row{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin: 10px;
+    text-align: left;
+}
